@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #010718;
+}
+.ttt h2{
+    color: #010718;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.ttt{
+    background-color: #4070f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-direction: column;
+    width: 20%;
+    padding-bottom: 186px;
+    
+}
+.ttt a{
+    font-weight:bolder ;
+}
+a:hover{
+    background-color: #010718;
+    color: #4070f4;
+    padding:20px 180px 20px 50px;
+    border-radius: 20px;
+}
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+h1 span {
+    color: #4070f4;
+    position: relative;
+}
+h1 span::before {
+    content: "";
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    background: #BD53ED;
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
+}
+h1 span.stop-blinking::before {
+    animation: none;
+}
+@keyframes blink {
+    50% { opacity: 0 }
+}
+body{
+    background-color: #010718;
+}
+.yy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+}
+.none{
+    position: relative;
+    padding: 150px;
+
+}
+.pp{
+    background-color: #4070f4;
+    width: 300px;
+    height: 600px;
+    border-bottom-left-radius: 300px;
+    border-top-left-radius: 300px;
+    position: relative;
+}
+.none a{
+    color:#4070f4;
+    border: #4070f4 solid 2px;
+    border-radius: 15px;
+    padding: 15px 40px 15px 40px;
+    position: relative;
+    left: 60px;
+    font-weight: bold;
+    
+}
+.none a:hover{
+    background-color: #4070f4;
+    color: #010718;
+}
+nav h2::first-letter{
+    color: #fff;
+}
+h3{
+    color: #fff;
+}
+@media (max-width: 540px ) {
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color: #010718;
+    }
+   .ttt h2{
+        color: #010718;
+        font-weight: 700;
+        font-size: 0.8em;
+        
+    }
+    .ttt{
+        background-color: #4070f4;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-direction: column;
+        width: 25%;
+        padding-bottom: 150px;
+        padding-left: 10px;
+        border: 2px #4070f4 solid;
+        border-radius: 10px;
+        
+    }
+    .ttt a{
+        font-weight:bolder ;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        
+    }
+    a:hover{
+        background-color: #010718;
+        color: #4070f4;
+        padding:10px 20px 10px 25px;
+        border-radius: 20px;
+    }
+    h1 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    h1 span {
+        color: #4070f4;
+        position: relative;
+    }
+    h1 span::before {
+        content: "";
+        height: 30px;
+        width: 2px;
+        position: absolute;
+        top: 50%;
+        right: -8px;
+        background: #BD53ED;
+        transform: translateY(-45%);
+        animation: blink 0.7s infinite;
+    }
+    h1 span.stop-blinking::before {
+        animation: none;
+    }
+    @keyframes blink {
+        50% { opacity: 0 }
+    }
+    body{
+        background-color: #010718;
+    }
+    .yy{
+        display: flex;
+        align-items: center;
+        gap: 0%;
+    }
+    .none{
+        position: relative;
+        scale: 70%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .pp{
+       display: none;
+    }
+    .none a{
+        color:#4070f4;
+        border: #4070f4 solid 2px;
+        border-radius: 15px;
+        padding: 15px 40px 15px 40px;
+        position: relative;
+        left: 60px;
+        font-weight: bold;
+        
+    }
+    .none a:hover{
+        background-color: #4070f4;
+        color: #010718;
+    }
+    .ttt h2::first-letter{
+        color: #fff;
+    }
+    h3{
+        color: #fff;
+    }
+}
