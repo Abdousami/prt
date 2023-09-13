@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("h1 span");
-const words = ["DESIGNER", "DEVELOPPER"];
+const words = ["FREELANCER", "DEVELOPPER"];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
